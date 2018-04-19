@@ -176,6 +176,7 @@ auto Tree:: delete_node (int value) -> bool {
         parent_del->right->data = value_new;
     if (parent_del->data==value)
         root->data= value_new;
+    return true;
 }
 
 auto Tree:: save_tree_to_the_file_recursion (Node * curr, int  space, std::ostream &File) ->void {
