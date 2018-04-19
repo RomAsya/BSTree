@@ -24,7 +24,7 @@ TEST_CASE("save_tree_to_the_file")
   std::string result;
   std::string text = "5 1 2 3 4 9 8 7 6";
   std::ifstream in("file.txt");
-  in >> result;
+  getline("file.txt", result);
   
   REQUIRE(result == text);
 }
