@@ -6,7 +6,7 @@
 #include "BSTree.hpp"
 using namespace BSTree;
 
-TEST_CASE("save_tree_to_the_file")
+TEST_CASE("save_tree_to_the_file_1")
 {
 	Tree tree;
   tree.insert(5);
@@ -31,7 +31,7 @@ TEST_CASE("save_tree_to_the_file")
   REQUIRE(result == text);
 }
 
-TEST_CASE("save_tree_to_the_file")
+TEST_CASE("save_tree_to_the_file_2")
 {
 	Tree tree;
   tree.insert(1);
@@ -56,7 +56,7 @@ TEST_CASE("save_tree_to_the_file")
   REQUIRE(result == text);
 }
 
-TEST_CASE("save_tree_to_the_file")
+TEST_CASE("save_tree_to_the_file_3")
 {
 	Tree tree;
   tree.insert(4);
