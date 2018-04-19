@@ -1,5 +1,6 @@
 #include <catch.hpp>
 #include <sstream>
+#include <string>
 
 #include "BSTree.hpp"
 using namespace BSTree;
@@ -24,7 +25,7 @@ TEST_CASE("save_tree_to_the_file")
   std::string result;
   std::string text = "5 1 2 3 4 9 8 7 6";
   std::ifstream in("file.txt");
-  std::getline("file.txt", result);
+  getline("file.txt", result);
   
   REQUIRE(result == text);
 }
