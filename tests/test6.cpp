@@ -1,7 +1,7 @@
 #include <catch.hpp>
 #include <sstream>
 
-#include "bstree.hpp"
+#include "BSTree.hpp"
 using namespace BSTree;
 
 TEST_CASE("save_tree_to_the_file")
