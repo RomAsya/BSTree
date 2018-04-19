@@ -18,7 +18,7 @@ TEST_CASE("save_tree_to_the_file")
   tree.insert(6);
   std::ofstream out("file.txt");
   
-  tree.save_tree_to_the_file (out);
+  tree.save_tree_to_the_file ("file.txt");
   out.close();
   
   std::string result;
